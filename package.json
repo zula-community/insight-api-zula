@@ -2,7 +2,7 @@
   "name": "insight-api-zula",
   "description": "A Zula blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.6.0",
-  "repository": "git://github.com/zulacoin/insight-api-zula.git",
+  "repository": "git://github.com/zuladev/insight-api-zula.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -38,9 +38,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/zulacoin/insight-api-zula/issues"
+    "url": "https://github.com/zuladev/insight-api-zula/issues"
   },
-  "homepage": "https://github.com/zulacoin/insight-api-zula",
+  "homepage": "https://github.com/zuladev/insight-api-zula",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -61,8 +61,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-zula": "zulacoin/bitcore-lib-zula",
-    "bitcore-message-zula": "zulacoin/bitcore-message-zula",
+    "bitcore-lib-zula": "zuladev/bitcore-lib-zula",
+    "bitcore-message-zula": "zuladev/bitcore-message-zula",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "=4.17.1",

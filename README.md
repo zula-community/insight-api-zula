@@ -11,8 +11,8 @@
       alt="API stability" />
   </a>
   <!-- Build Status -->
-  <a href="https://travis-ci.org/zulacoin/insight-api-zula">
-    <img src="https://img.shields.io/travis/zulacoin/insight-api-zula/master.svg?style=flat-square" alt="Build Status" />
+  <a href="https://travis-ci.org/zuladev/insight-api-zula">
+    <img src="https://img.shields.io/travis/zuladev/insight-api-zula/master.svg?style=flat-square" alt="Build Status" />
   </a>
   <!-- NPM version -->
   <a href="https://npmjs.org/package/insight-api-zula">
@@ -21,7 +21,7 @@
 </div>
 
 
-This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/zulacoin/insight-ui-zula.
+This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/zuladev/insight-ui-zula.
 
 ## Table of Content
 - [Getting Started](#getting-started)
@@ -55,7 +55,7 @@ This is a backend-only service. If you're looking for the web frontend applicati
 - [Notes on Upgrading from v0.3](#notes-on-upgrading-from-v03)
 - [Notes on Upgrading from v0.2](#notes-on-upgrading-from-v02)
 - [Resources](#resources)
-- [License](https://github.com/zulacoin/insight-api-zula/blob/master/LICENSE)
+- [License](https://github.com/zuladev/insight-api-zula/blob/master/LICENSE)
 
 ## Getting Started
 
@@ -71,7 +71,7 @@ The API endpoints will be available by default at: `http://localhost:3001/insigh
 
 ### Prerequisites
 
-- [Bitcore Node Zula 3.x](https://github.com/zulacoin/bitcore-node-zula)
+- [Bitcore Node Zula 3.x](https://github.com/zuladev/bitcore-node-zula)
 
 **Note:** You can use an existing Zula data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` needs to be set to true in `zula.conf`, as well as a few other additional fields.
 
